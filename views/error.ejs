@@ -1,0 +1,1 @@
+<%- include('partials/header',{title,user}) %><section class="card error"><p class="eyebrow">ERREUR <%= status %></p><h1><%= message %></h1><a href="<%= user ? '/dashboard' : '/' %>">Retour</a></section><%- include('partials/footer') %>
